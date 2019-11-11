@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">员工管理系统</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_inserter">录入页面</string>
+    <string name="title_activity_delete">删除页面</string>
+    <string name="title_activity_select">Select</string>
+    <string name="title_activity_query">查询页面</string>
+    <string name="title_activity_show">显示页面</string>
+    <string name="title_activity_updata">修改内容</string>
+    <string name="title_activity_updatapp">修改页面</string>
+
+</resources>

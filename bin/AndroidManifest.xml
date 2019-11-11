@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.staff"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.staff.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.staff.Insert"
+            android:label="@string/title_activity_inserter" >
+        </activity>
+        <activity
+            android:name="com.example.staff.Delete"
+            android:label="@string/title_activity_delete" >
+        </activity>
+        <activity
+            android:name="com.example.staff.Select"
+            android:label="@string/title_activity_select" >
+        </activity>
+        <activity
+            android:name="com.example.staff.Query"
+            android:label="@string/title_activity_query" >
+        </activity>
+        <activity
+            android:name="com.example.staff.Show"
+            android:label="@string/title_activity_show" >
+        </activity>
+        <activity
+            android:name="com.example.staff.Updata"
+            android:label="@string/title_activity_updata" >
+        </activity>
+        <activity
+            android:name="com.example.staff.Updatapp"
+            android:label="@string/title_activity_updatapp" >
+        </activity>
+    </application>
+
+</manifest>
